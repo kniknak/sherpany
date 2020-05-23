@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader renders 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  position="static"
+>
+  <WithStyles(ForwardRef(Toolbar))>
+    <WithStyles(ForwardRef(Button))
+      color="inherit"
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "Link",
+          "propTypes": Object {
+            "innerRef": [Function],
+            "onClick": [Function],
+            "replace": [Function],
+            "target": [Function],
+            "to": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      to="/"
+    >
+      Home
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="inherit"
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "Link",
+          "propTypes": Object {
+            "innerRef": [Function],
+            "onClick": [Function],
+            "replace": [Function],
+            "target": [Function],
+            "to": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      to="/settings"
+    >
+      Settings
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;

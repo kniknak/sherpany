@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressBook AddressBookHeader renders 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  color="default"
+  position="sticky"
+>
+  <WithStyles(ForwardRef(Toolbar))
+    style={
+      Object {
+        "alignItems": "baseline",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Typography))
+      variant="body1"
+    >
+      Success
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      align="right"
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+      variant="body1"
+    >
+      Search:
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(WithStyles(ForwardRef(TextField)))
+      label="Type text"
+      margin="normal"
+      onChange={[Function]}
+      size="small"
+      value="search"
+      variant="outlined"
+    />
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;

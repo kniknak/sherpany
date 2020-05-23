@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressBook Person AddressBookPerson renders 1`] = `
+<WithStyles(ForwardRef(TableRow))>
+  <AddressBookPersonRow
+    onOpen={[Function]}
+    person={
+      Object {
+        "cell": "cell",
+        "email": "email",
+        "id": Object {
+          "value": "id.value",
+        },
+        "location": Object {
+          "city": "location.city",
+          "postcode": "location.postcode",
+          "state": "location.state",
+          "street": Object {
+            "name": "location.street.name",
+            "number": 1,
+          },
+        },
+        "login": Object {
+          "username": "login.username",
+        },
+        "name": Object {
+          "first": "name.first",
+          "last": "name.last",
+        },
+        "phone": "phone",
+        "picture": Object {
+          "thumbnail": "picture.thumbnail",
+        },
+      }
+    }
+  />
+</WithStyles(ForwardRef(TableRow))>
+`;

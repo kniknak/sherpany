@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressBook Person AddressBookPersonRow renders 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TableCell))>
+    <WithStyles(ForwardRef(Avatar))
+      alt="name.first name.last"
+      src="picture.thumbnail"
+    />
+  </WithStyles(ForwardRef(TableCell))>
+  <WithStyles(ForwardRef(TableCell))>
+    name.first
+  </WithStyles(ForwardRef(TableCell))>
+  <WithStyles(ForwardRef(TableCell))>
+    name.last
+  </WithStyles(ForwardRef(TableCell))>
+  <WithStyles(ForwardRef(TableCell))>
+    login.username
+  </WithStyles(ForwardRef(TableCell))>
+  <WithStyles(ForwardRef(TableCell))>
+    email
+  </WithStyles(ForwardRef(TableCell))>
+  <WithStyles(ForwardRef(TableCell))>
+    <WithStyles(ForwardRef(IconButton))
+      color="inherit"
+      onClick={[Function]}
+    >
+      <MoreVertIcon />
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(TableCell))>
+</Fragment>
+`;

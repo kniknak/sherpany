@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressBook Person AddressBookPersonModal renders 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  fullWidth={true}
+  maxWidth="sm"
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))>
+    login.username
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(WithStyles(ForwardRef(Typography)))>
+    location.street.name: 
+    location.street.name
+  </WithStyles(WithStyles(ForwardRef(Typography)))>
+  <WithStyles(WithStyles(ForwardRef(Typography)))>
+    location.street.number: 
+    1
+  </WithStyles(WithStyles(ForwardRef(Typography)))>
+  <WithStyles(WithStyles(ForwardRef(Typography)))>
+    location.city: 
+    location.city
+  </WithStyles(WithStyles(ForwardRef(Typography)))>
+  <WithStyles(WithStyles(ForwardRef(Typography)))>
+    location.state: 
+    location.state
+  </WithStyles(WithStyles(ForwardRef(Typography)))>
+  <WithStyles(WithStyles(ForwardRef(Typography)))>
+    location.postcode: 
+    location.postcode
+  </WithStyles(WithStyles(ForwardRef(Typography)))>
+  <WithStyles(WithStyles(ForwardRef(Typography)))>
+    phone: 
+    phone
+  </WithStyles(WithStyles(ForwardRef(Typography)))>
+  <WithStyles(WithStyles(ForwardRef(Typography)))>
+    cell: 
+    cell
+  </WithStyles(WithStyles(ForwardRef(Typography)))>
+</WithStyles(ForwardRef(Dialog))>
+`;

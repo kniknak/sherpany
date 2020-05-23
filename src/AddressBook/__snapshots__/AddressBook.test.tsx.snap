@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressBook AddressBook renders 1`] = `
+<Fragment>
+  <Connect(AddressBookHeader)
+    search=""
+    setSearch={[Function]}
+  />
+  <Connect(AddressBookTable)
+    maxPage={20}
+    scrollThreshold={500}
+    search=""
+  />
+</Fragment>
+`;

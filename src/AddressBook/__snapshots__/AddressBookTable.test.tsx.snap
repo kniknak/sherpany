@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressBook AddressBookTable renders 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Table))>
+    <WithStyles(ForwardRef(TableHead))>
+      <WithStyles(ForwardRef(TableRow))>
+        <WithStyles(ForwardRef(TableCell))>
+          picture.thumbnail
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          name.first
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          name.last
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          name.username
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell))>
+          email
+        </WithStyles(ForwardRef(TableCell))>
+        <WithStyles(ForwardRef(TableCell)) />
+      </WithStyles(ForwardRef(TableRow))>
+    </WithStyles(ForwardRef(TableHead))>
+    <WithStyles(ForwardRef(TableBody)) />
+  </WithStyles(ForwardRef(Table))>
+  <Memo()>
+    end of users catalog
+  </Memo()>
+  <AddressBookPersonModal
+    isOpen={false}
+    onClose={[Function]}
+  />
+</Fragment>
+`;
+
+exports[`AddressBook AddressBookTable renders end state 1`] = `
+<Memo()>
+  end of users catalog
+</Memo()>
+`;
+
+exports[`AddressBook AddressBookTable renders loading state 1`] = `
+<Memo()>
+  loading...
+</Memo()>
+`;
+
+exports[`AddressBook AddressBookTable renders table 1`] = `
+<WithStyles(ForwardRef(TableBody))>
+  <AddressBookPerson
+    isShown={true}
+    key="id.value"
+    onOpen={[Function]}
+    person={
+      Object {
+        "cell": "cell",
+        "email": "email",
+        "id": Object {
+          "value": "id.value",
+        },
+        "location": Object {
+          "city": "location.city",
+          "postcode": "location.postcode",
+          "state": "location.state",
+          "street": Object {
+            "name": "location.street.name",
+            "number": 1,
+          },
+        },
+        "login": Object {
+          "username": "login.username",
+        },
+        "name": Object {
+          "first": "name.first",
+          "last": "name.last",
+        },
+        "phone": "phone",
+        "picture": Object {
+          "thumbnail": "picture.thumbnail",
+        },
+      }
+    }
+  />
+  <AddressBookPerson
+    isShown={true}
+    key="id.value2"
+    onOpen={[Function]}
+    person={
+      Object {
+        "cell": "cell",
+        "email": "email",
+        "id": Object {
+          "value": "id.value2",
+        },
+        "location": Object {
+          "city": "location.city",
+          "postcode": "location.postcode",
+          "state": "location.state",
+          "street": Object {
+            "name": "location.street.name",
+            "number": 1,
+          },
+        },
+        "login": Object {
+          "username": "login.username",
+        },
+        "name": Object {
+          "first": "name.first",
+          "last": "name.last",
+        },
+        "phone": "phone",
+        "picture": Object {
+          "thumbnail": "picture.thumbnail",
+        },
+      }
+    }
+  />
+  <AddressBookPerson
+    isShown={true}
+    key="id.value2"
+    onOpen={[Function]}
+    person={
+      Object {
+        "cell": "cell",
+        "email": "email",
+        "id": Object {
+          "value": "id.value2",
+        },
+        "location": Object {
+          "city": "location.city",
+          "postcode": "location.postcode",
+          "state": "location.state",
+          "street": Object {
+            "name": "location.street.name",
+            "number": 1,
+          },
+        },
+        "login": Object {
+          "username": "login.username",
+        },
+        "name": Object {
+          "first": "name.first",
+          "last": "name.last",
+        },
+        "phone": "phone",
+        "picture": Object {
+          "thumbnail": "picture.thumbnail",
+        },
+      }
+    }
+  />
+  <AddressBookPerson
+    isShown={true}
+    key="id.value2"
+    onOpen={[Function]}
+    person={
+      Object {
+        "cell": "cell",
+        "email": "email",
+        "id": Object {
+          "value": "id.value2",
+        },
+        "location": Object {
+          "city": "location.city",
+          "postcode": "location.postcode",
+          "state": "location.state",
+          "street": Object {
+            "name": "location.street.name",
+            "number": 1,
+          },
+        },
+        "login": Object {
+          "username": "login.username",
+        },
+        "name": Object {
+          "first": "name.first",
+          "last": "name.last",
+        },
+        "phone": "phone",
+        "picture": Object {
+          "thumbnail": "picture.thumbnail",
+        },
+      }
+    }
+  />
+</WithStyles(ForwardRef(TableBody))>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings Settings renders 1`] = `
+<WithStyles(ForwardRef(Container))
+  maxWidth="xs"
+>
+  <WithStyles(ForwardRef(FormControlLabel))
+    control={
+      <ForwardRef(WithStyles)
+        checked={false}
+        name="CH"
+        onChange={[Function]}
+      />
+    }
+    key="CH"
+    label="CH"
+  />
+  <WithStyles(ForwardRef(FormControlLabel))
+    control={
+      <ForwardRef(WithStyles)
+        checked={false}
+        name="ES"
+        onChange={[Function]}
+      />
+    }
+    key="ES"
+    label="ES"
+  />
+  <WithStyles(ForwardRef(FormControlLabel))
+    control={
+      <ForwardRef(WithStyles)
+        checked={false}
+        name="FR"
+        onChange={[Function]}
+      />
+    }
+    key="FR"
+    label="FR"
+  />
+  <WithStyles(ForwardRef(FormControlLabel))
+    control={
+      <ForwardRef(WithStyles)
+        checked={false}
+        name="GB"
+        onChange={[Function]}
+      />
+    }
+    key="GB"
+    label="GB"
+  />
+</WithStyles(ForwardRef(Container))>
+`;

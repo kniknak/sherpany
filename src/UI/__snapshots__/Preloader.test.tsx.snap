@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preloader Preloader renders 1`] = `
+<WithStyles(ForwardRef(Toolbar))>
+  <WithStyles(ForwardRef(Typography))
+    align="center"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Foo />
+  </WithStyles(ForwardRef(Typography))>
+</WithStyles(ForwardRef(Toolbar))>
+`;
